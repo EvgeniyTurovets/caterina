@@ -1,5 +1,7 @@
 $(function(){
    
+    
+
     $('.main__slider').slick({
         infinite: true,
         slidesToShow: 4,
