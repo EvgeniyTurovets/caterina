@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" fill="white"></rect>
+  <path d="M1 85C1 83.3431 2.34315 82 4 82H96C97.6569 82 99 83.3431 99 85C99 86.6569 97.6569 88 96 88H4C2.34315 88 1 86.6569 1 85Z" stroke="#31364A" stroke-width="2"></path>
+  <path d="M4 37C4 35.3431 5.34315 34 7 34H61C62.6569 34 64 35.3431 64 37V82H4V37Z" stroke="#31364A" stroke-width="2"></path>
+  <path d="M82 63V64H83H91C92.6569 64 94 65.3431 94 67V82H64V45H79C80.6569 45 82 46.3431 82 48V63Z" fill="#496BF2" stroke="#31364A" stroke-width="2"></path>
+  <path d="M72 45H79C80.6569 45 82 46.3431 82 48V64H72V45Z" fill="white" stroke="#31364A" stroke-width="2"></path>
+  <path d="M31 31C31 29.3431 32.3431 28 34 28C35.6569 28 37 29.3431 37 31V34H31V31Z" fill="white" stroke="#31364A" stroke-width="2"></path>
+  <path d="M34 17V23" stroke="#31364A" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M22 23L26.2426 27.2426" stroke="#31364A" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M46.2426 23L42 27.2426" stroke="#31364A" stroke-width="2" stroke-linecap="round"></path>
+  <circle cx="24" cy="89" r="10" fill="white" stroke="#31364A" stroke-width="2"></circle>
+  <circle cx="34" cy="58" r="16" fill="#2DD6C1" stroke="#31364A" stroke-width="2"></circle>
+  <circle cx="24" cy="89" r="4" fill="white" stroke="#31364A" stroke-width="2"></circle>
+  <circle cx="80" cy="89" r="10" fill="white" stroke="#31364A" stroke-width="2"></circle>
+  <circle cx="80" cy="89" r="4" fill="white" stroke="#31364A" stroke-width="2"></circle>
+  <path d="M31 56H32V55V51H36V55V56H37H41V60H37H36V61V65H32V61V60H31H27V56H31Z" fill="white" stroke="#31364A" stroke-width="2"></path>
+  <path d="M72.1364 26.6003L58.4292 13.1765L63.7273 7.98791L71.4367 15.538L72.1364 16.2232L72.836 15.538L87.2727 1.39968L92.5708 6.58824L72.1364 26.6003Z" fill="#2DD6C1" stroke="#31364A" stroke-width="2"></path>
+</svg>
