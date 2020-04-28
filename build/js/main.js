@@ -8722,4 +8722,13 @@ $(function(){
           scrollTop: $($(this).attr('href')).offset().top
         }, 500, 'linear');
       });
+
+      $(window).on('resize', function(){
+        $('.fancybox-video').fancybox({
+            type: "iframe",
+            helpers : {
+                media : {}
+            }
+        });
+      });
 })

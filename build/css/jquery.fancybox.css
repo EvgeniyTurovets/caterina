@@ -893,3 +893,16 @@ body.compensate-for-scrollbar {
         max-width: calc(100% - 10px);
     }
 }
+@media(max-width: 500px){
+    .fancybox-slide{
+        padding: 10px;
+    }
+    .fancybox-iframe{
+        height:222px;
+        top: 100px;
+    }
+    .fancybox-slide--iframe .fancybox-content{
+        background-color: transparent;
+    }
+    
+}

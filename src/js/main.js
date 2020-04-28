@@ -60,11 +60,14 @@ $(function(){
         
     })
     $(document).mouseup(function (e){ // событие клика по веб-документу
-		var div = $(".header__menu"); // тут указываем ID элемента
-		if (!div.is(e.target) // если клик был не по нашему блоку
-		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
-            $('.menu-close').click()
-		}
+        var div = $(".header__menu"); // тут указываем ID элемента
+        if(div.hasClass('active')){
+            if (!div.is(e.target) // если клик был не по нашему блоку
+                && div.has(e.target).length === 0) { // и не по его дочерним элементам
+                $('.menu-close').click()
+            }
+        }
+		
 	});
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
@@ -72,5 +75,14 @@ $(function(){
         $('html, body').animate({
           scrollTop: $($(this).attr('href')).offset().top
         }, 500, 'linear');
+      });
+
+      $(window).on('resize', function(){
+        $('.fancybox-video').fancybox({
+            type: "iframe",
+            helpers : {
+                media : {}
+            }
+        });
       });
 })
