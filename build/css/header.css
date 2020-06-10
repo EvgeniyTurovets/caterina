@@ -212,3 +212,15 @@ body {
         padding-top: 20px;
     }
 }
+
+.srolltoTop {
+    display: none;
+    position: fixed;
+    width: 40px;
+    cursor: pointer;
+    height: 43px;
+    padding: 10px;
+    background-color: rgba(102, 102, 102, 0.3);
+    right: 10px;
+    bottom: 10px;
+}

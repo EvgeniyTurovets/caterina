@@ -221,18 +221,6 @@
     overflow-x: hidden;
 }
 
-.srolltoTop {
-    display: none;
-    position: fixed;
-    width: 40px;
-    cursor: pointer;
-    height: 43px;
-    padding: 10px;
-    background-color: rgba(102, 102, 102, 0.3);
-    right: 10px;
-    bottom: 10px;
-}
-
 @media (max-width: 1300px) {
     .about3 {
         background-position-x: -100px;
