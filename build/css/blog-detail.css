@@ -1,0 +1,316 @@
+.article:first-child {
+    width: -webkit-calc(100% / 3);
+    width: calc(100% / 3);
+    padding: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.article:first-child .article__image {
+    height: 290px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.article:first-child .article__title {
+    font-size: 22px;
+}
+
+.logo svg path {
+    fill: #fff;
+}
+
+.logo__text {
+    color: #fff;
+}
+
+.nav ul li a {
+    color: #fff;
+}
+
+.nav ul li.active a {
+    border-color: #fff;
+}
+
+.nav ul li:hover a {
+    border-bottom: 3px solid #fff;
+}
+
+.page__section-top {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: #fff;
+    background-color: #252525;
+}
+
+.page__container {
+    width: 85%;
+    max-width: 1233px;
+    margin: 0 auto;
+}
+
+.page__p-detail {
+    width: 66.6%;
+    margin-top: 3em;
+}
+
+.p-detail__title {
+    font-size: 3em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.125em;
+    display: block;
+}
+
+.p-detail__data {
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.125em;
+    font-weight: 500;
+}
+
+.p-detail__data a {
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 2.5px;
+    background-size: 100% 2.5px;
+    background-position: center bottom;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    background-color: transparent;
+}
+
+.blog__wraper {
+    display: block;
+}
+
+.article {
+    width: 100% !important;
+}
+
+.main.blog {
+    padding-top: 4em;
+}
+
+.wrap-flex {
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.wrap__left {
+    width: 66.6%;
+    background-color: #fff;
+    padding: 2em;
+}
+
+.wrap__right {
+    width: 33.3%;
+    padding-left: 2em;
+}
+
+.p-description {
+    text-align: left;
+    color: #252525;
+    font-family: "PT Serif", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-size: 20px;
+}
+
+.p-description img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.p-description h2 {
+    margin-bottom: 0.3333333333em;
+    overflow-wrap: break-word;
+    line-height: inherit;
+    font-size: 1.875em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+.p-description h3 {
+    margin-bottom: 0.3333333333em;
+    overflow-wrap: break-word;
+    line-height: inherit;
+    font-size: 1.5em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+.p-description h4 {
+    margin-bottom: 0.3333333333em;
+    overflow-wrap: break-word;
+    line-height: inherit;
+    font-size: 1.2em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+.p-description p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    font-family: inherit;
+}
+
+.p-description a {
+    color: #1b49be;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 73, 190, 0.25)), to(rgba(27, 73, 190, 0.25)));
+    background-image: -webkit-linear-gradient(rgba(27, 73, 190, 0.25), rgba(27, 73, 190, 0.25));
+    background-image: -o-linear-gradient(rgba(27, 73, 190, 0.25), rgba(27, 73, 190, 0.25));
+    background-image: linear-gradient(rgba(27, 73, 190, 0.25), rgba(27, 73, 190, 0.25));
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 2.5px;
+    background-size: 100% 2.5px;
+    background-position: center 93%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    background-color: transparent;
+    -webkit-transition: color 0.15s ease-out;
+    -o-transition: color 0.15s ease-out;
+    transition: color 0.15s ease-out;
+}
+
+.p-description ul {
+    margin-left: 2em;
+    padding-left: 0;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+.p-description li {
+    margin-bottom: 0.5em;
+}
+
+.p-comment {
+    text-align: left;
+}
+
+.p-comment__title {
+    margin-bottom: 0.3333333333em;
+    overflow-wrap: break-word;
+    line-height: inherit;
+    font-size: 1.5em;
+    font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+.article__image {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 90%;
+    width: 100%;
+    display: block;
+    height: auto !important;
+}
+
+@media (max-width: 991px) {
+    body .article {
+        width: 50% !important;
+    }
+
+    .wrap__left {
+        width: 100%;
+    }
+
+    .wrap__right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .p-description {
+        font-size: 18px;
+    }
+
+    .blog__wraper {
+        display: -ms-flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .page__section-top {
+        padding-top: 10em;
+        padding-bottom: 5em;
+    }
+
+    .p-detail__title {
+        font-size: 1.4em;
+    }
+
+    body .article {
+        width: 100% !important;
+    }
+
+    .page__container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .page__p-detail {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .main.blog {
+        padding-top: 2em;
+    }
+
+    .wrap__left {
+        padding: 1em;
+    }
+}
