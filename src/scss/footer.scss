@@ -1,0 +1,145 @@
+.footer {
+  color: #fff;
+  background-color: #252525;
+  padding: 4em 0 4em 0;
+}
+.footer__f-wrapper {
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__f-nav {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.f-logo__text {
+  display: none;
+}
+.f-logo svg {
+  display: block;
+  width: 250px;
+}
+
+.f-info {
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.f-info__text {
+  text-align: right;
+  margin-top: 0;
+  margin-right: 1em;
+  font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-size: 0.75rem;
+}
+.f-info__soc {
+  font-size: 0;
+}
+.f-info__socitem {
+  display: inline-block;
+}
+.f-info__soclink {
+  display: block;
+}
+.f-info__soclink svg {
+  display: block;
+  width: 45px;
+}
+
+.f-nav {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  width: 100%;
+  text-align: right;
+  list-style: none;
+}
+.f-nav__item {
+  display: inline-block;
+}
+.f-nav__link {
+  display: block;
+  color: #fff;
+  font-size: 0.6rem;
+  padding-top: 0;
+  padding-bottom: 0.2em;
+  border: 0;
+  background-color: transparent;
+  font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  position: relative;
+  margin-left: 1.5em;
+}
+
+@media (max-width: 991px) {
+
+  .footer__f-wrapper {
+    display: block;
+  }
+
+  .footer__f-logo {
+    width: 100%;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+
+  .f-logo svg {
+    width: 175px;
+  }
+
+  .footer__f-info,
+.f-info {
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .f-info__text {
+    margin: 16px 0 0;
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+  }
+
+  .f-info__soc {
+    order: -1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .f-nav {
+    text-align: center;
+  }
+  .f-nav__item:first-child .f-nav__link {
+    margin-left: 0;
+  }
+
+  .f-nav__link {
+    font-size: 9.6px;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 527px) {
+
+  .f-nav {
+    display: block;
+    width: 100%;
+  }
+
+  .f-nav__item {
+    display: block;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .f-nav__link {
+    margin-left: 0;
+  }
+}

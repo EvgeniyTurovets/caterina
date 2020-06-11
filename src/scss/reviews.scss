@@ -1,0 +1,139 @@
+.page__container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1233px;
+}
+.page__section-reviews {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 10em 0 10em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  background-color: #252525;
+}
+.page__p-reviews {
+  padding: 0;
+}
+.page__p-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.p-reviews {
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
+.p-reviews::before {
+  content: "";
+  display: table;
+}
+.p-reviews::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.p-reviews__item {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  float: left;
+  margin-bottom: 30px;
+}
+.p-reviews__link {
+  display: block;
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.p-title {
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-size: 2.375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+.pagination {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 100px;
+  border-top: 1px solid #fff;
+  justify-content: center;
+}
+
+.pagination ul {
+  display: flex;
+}
+
+.pagination ul li {
+  list-style: none;
+  background-color: #1b49be;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.pagination ul li a {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination ul li.active {
+  background-color: #000;
+}
+
+.pagination .nextpostslink {
+  height: -webkit-max-content;
+  height: max-content;
+  margin-left: 10px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #1b49be;
+}
+
+.pagination .previouspostslink {
+  height: -webkit-max-content;
+  height: max-content;
+  margin-right: 10px;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid #1b49be;
+}
+
+@media (max-width: 1199px) {
+  .p-reviews__item {
+    width: 33.3%;
+  }
+}
+@media (max-width: 991px) {
+  .p-reviews__item {
+    width: 50%;
+  }
+
+  .page__section-reviews {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .p-reviews__item {
+    width: 100%;
+  }
+
+  .p-title {
+    font-size: 25px;
+  }
+}
